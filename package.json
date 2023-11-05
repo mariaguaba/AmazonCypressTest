@@ -1,0 +1,16 @@
+{
+  "name": "amazoncypresstest",
+  "version": "1.0.0",
+  "description": "Proyecto Amazon",
+  "main": "index.js",
+  "scripts": {
+    "tests-edge": "cypress run --spec cypress/e2e/amazontests.cy.js --browser edge",
+    "tests-chrome": "cypress run --spec cypress/e2e/amazontests.cy.js --browser chrome",
+    "tests-electron": "cypress run --spec cypress/e2e/amazontests.cy.js --browser electron"
+  },
+  "author": "Maria Guaba",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.4.0"
+  }
+}
