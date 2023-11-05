@@ -5,7 +5,7 @@ describe("Test suite", () => {
     })
 
 
-    it.only("Valid you can see the Amazon logo", () => {
+    it("Valid you can see the Amazon logo", () => {
         cy.get('#nav-logo-sprites').should("be.visible")
 
     })
